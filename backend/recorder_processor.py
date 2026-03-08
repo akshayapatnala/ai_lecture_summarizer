@@ -1,7 +1,7 @@
 import whisper
 import subprocess
 
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 def transcribe_audio(video_path):
 
